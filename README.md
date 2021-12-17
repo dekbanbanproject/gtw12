@@ -8,13 +8,6 @@
 </p>
 
 
-## Install 12M 
-<ul>
-    <li>https://github.com/jitsanga/gtwbackoffice.git</li>
-    <li>coppy example.env to .env</li>
-    <li>composer install</li>
-    <li>chmod -R apache:apache wwwDirectory</li>
-</ul>
 
 ## การใช้ git Install
 ** ดึงข้อมูลลงมา<br/>
@@ -25,6 +18,7 @@
 3.ใช้คำสั่ง composer update
 <br/>
 4.php artisan migrate
+5.chmod -R apache:apache wwwDirectory
 
 ## Backup database 
 ถูกเก็บที่ storage/app/backupDB
