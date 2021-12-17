@@ -8,7 +8,7 @@
 </p>
 
 
-## Install 
+## Install 12M 
 <ul>
     <li>https://github.com/jitsanga/gtwbackoffice.git</li>
     <li>coppy example.env to .env</li>
@@ -16,25 +16,15 @@
     <li>chmod -R apache:apache wwwDirectory</li>
 </ul>
 
-## การใช้ git
+## การใช้ git Install
 ** ดึงข้อมูลลงมา<br/>
-git pull
+1.git clone https://github.com/dekbanbanproject/gtw12.git
 <br/>
- ** Undo reset <br/>
-git reset --hard HEAD
-** สลับ Branch => git checkout dev
+2.เปลี่ยนชื่อไฟล์ example.env to .env เพื่อเชื่อมต่อ Database
 <br/>
-** Merge branch => git merge dev
+3.ใช้คำสั่ง composer update
 <br/>
-** แก้ Git ignore ไม่ ignore
-<br />
-git rm -r --cached .
-<br />
-
-## About coppy email to username
-php artisan migrate
-<br />
-route => /moveuser
+4.php artisan migrate
 
 ## Backup database 
 ถูกเก็บที่ storage/app/backupDB
